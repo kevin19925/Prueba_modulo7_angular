@@ -1,4 +1,6 @@
-import {  } from "./Adrdress";
+import { AdditionalCost } from "./AdditionalCost";
+import { RoleProject } from "./RoleProject";
+
 
 export class Proyect {
   id!: number;
@@ -7,5 +9,5 @@ export class Proyect {
   profitPercentage!: number;
   salePrice!: number;
   roleProyect!: RoleProject[];
-  additionalCost!: AdditionalCost[]:
+  additionalCost!: AdditionalCost[];
 }
