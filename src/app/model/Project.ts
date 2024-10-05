@@ -10,4 +10,5 @@ export class Project {
   salePrice!: number;
   roleProyect!: RoleProject[];
   additionalCost!: AdditionalCost[];
+  total!: number;
 }
