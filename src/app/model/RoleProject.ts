@@ -1,3 +1,5 @@
+import { Rol } from "./Rol";
+
 export class RoleProject {
   id!: number;
   role!: Rol;
