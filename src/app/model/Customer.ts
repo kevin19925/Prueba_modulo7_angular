@@ -1,8 +1,8 @@
-import { Address } from './Adrdress';
+import { Address } from "./Adrdress";
 
 export class Customer {
-  id!: string;
-  name!: string;
-  surname!: string;
-  adress!: Address;
-}
+    id!: string;
+    name!: string;
+    surname!: string;
+    address!: Address;
+};
