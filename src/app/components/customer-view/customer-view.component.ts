@@ -6,7 +6,6 @@ import { Customer } from '../../model/Customer';
   standalone: true,
   imports: [],
   templateUrl: './customer-view.component.html',
-  styleUrl: './customer-view.component.css',
 })
 export class CustomerViewComponent {
   @Input() customer!: Customer;
