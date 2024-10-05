@@ -2,7 +2,7 @@ import { AdditionalCost } from "./AdditionalCost";
 import { RoleProject } from "./RoleProject";
 
 
-export class Proyect {
+export class Project {
   id!: number;
   title!: string;
   duration!: number;
